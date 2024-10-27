@@ -1,5 +1,5 @@
 name:               ekg-statsd
-version:            0.2.6.0
+version:            0.2.6.1
 synopsis:           Push metrics to statsd
 description:
   This library lets you push system metrics to a statsd server.
@@ -30,11 +30,12 @@ tested-with:
    || ==9.6.4
    || ==9.6.6
    || ==9.8.2
+   || ==9.10.1
 
 library
   exposed-modules:  System.Remote.Monitoring.Statsd
   build-depends:
-      base                  >=4.6 && <4.20
+      base                  >=4.6 && <4.21
     , bytestring            <1.0
     , ekg-core              >=0.1 && <1.0
     , network               <3.3
