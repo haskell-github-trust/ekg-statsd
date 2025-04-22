@@ -31,16 +31,17 @@ tested-with:
    || ==9.6.6
    || ==9.8.2
    || ==9.10.1
+   || ==9.12.2
 
 library
   exposed-modules:  System.Remote.Monitoring.Statsd
   build-depends:
-      base                  >=4.6 && <4.21
+      base                  >=4.6 && <4.22
     , bytestring            <1.0
     , ekg-core              >=0.1 && <1.0
     , network               <3.3
     , text                  <2.2
-    , time                  <1.13
+    , time                  <1.15
     , unordered-containers  <0.3
 
   default-language: Haskell2010
